@@ -1,3 +1,36 @@
-<head>
-  <link rel="stylesheet" href="style.css">
-</head>
+body{
+  background-color: #FCF4EA;
+  font-family: 'Big Shoulders Text', cursive;
+  font-family: 'Libre Franklin', sans-serif;
+}
+
+/*Navigation*/
+.topbarNav{
+  display:inline-block;
+  vertical-align:top;
+  background-color: #64394E;
+  width:100%;
+}
+.NavlistItems{
+  float:right;
+  float:center;
+  font-size: 48px;
+  margin: 25px;
+}
+.NavlistItems button{
+  font-size: 48px;
+  color: #C2908C;
+}
+.NavlistItems a{
+  color: #C2908C;
+}
+/*HeroImage*/
+.heroImg{
+  display:grid;
+  grid-template-columns: 1fr 1fr;
+}
+.image{
+  height: 576px;
+  width:478px;
+  
+}
