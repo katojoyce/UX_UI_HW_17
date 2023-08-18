@@ -11,26 +11,60 @@ body{
   background-color: #64394E;
   width:100%;
 }
-.NavlistItems{
+.logoImage {
+  float:left;
+  margin:10px;
+}
+.topbarNavItems{
   float:right;
-  float:center;
-  font-size: 48px;
-  margin: 25px;
 }
-.NavlistItems button{
-  font-size: 48px;
+.topbarNav a{ 
+  width: 50%;
   color: #C2908C;
+  margin:10px;
+  font-size: 38px;
 }
-.NavlistItems a{
+.topbarNav button{
+  font-size: 38px;
+  background-color:#64394E;
+  border-color: #FCF4EA;
   color: #C2908C;
+  margin:10px;
 }
+ 
 /*HeroImage*/
 .heroImg{
   display:grid;
   grid-template-columns: 1fr 1fr;
 }
 .image{
+  width:50%;
   height: 576px;
   width:478px;
-  
+}
+.AboutMe{
+  font-size: 38px;
+  color:#64394E;
+}
+/*footer*/
+.footer{
+  display:inline-block;
+  vertical-align:top;
+  background-color: #64394E;
+  width:100%;
+  color:#C2908C;
+}
+.footerItems1{
+  float:left;
+  margin-top:12.5px;
+  margin-bottom:8.5px;
+  margin-left: 25px;
+  font-size:20px;
+}
+.footerItems2{
+  float:right;
+  font-size: 25px;
+  margin-top: 12.5px;
+  margin-bottom:8.5px;
+  margin-right:50px;
 }
