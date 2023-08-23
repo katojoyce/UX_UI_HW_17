@@ -6,65 +6,64 @@ body{
 
 /*Navigation*/
 .topbarNav{
-  display:inline-block;
+  top: 0;
+  left: 0;
+  padding: 15px;
+  display:flex;
   vertical-align:top;
   background-color: #64394E;
   width:100%;
+  justify-content: space-between;
+  align-items: center;
 }
 .logoImage {
-  float:left;
   margin:10px;
 }
-.topbarNavItems{
-  float:right;
-}
+
 .topbarNav a{ 
-  width: 50%;
   color: #C2908C;
-  margin:10px;
+  padding:10px;
+  margin-right: 40px;
   font-size: 38px;
+  font-weight: 500px;
 }
-.topbarNav button{
-  font-size: 38px;
-  background-color:#64394E;
-  border-color: #FCF4EA;
-  color: #C2908C;
-  margin:10px;
-}
- 
+
 /*HeroImage*/
 .heroImg{
-  display:grid;
-  grid-template-columns: 1fr 1fr;
+  display:flex;
+  padding:10px;
+  vertical-align:top;
+  width:100%;
+  align-items: top;
+  justify-content:space-between;
 }
-.image{
-  width:50%;
-  height: 576px;
-  width:478px;
-}
+
 .AboutMe{
   font-size: 38px;
-  color:#64394E;
+  color: #64394E;
+  margin-left: 50px;
 }
+.ProfilePic{
+  margin-right:250px;
+  margin-top: 20px;
+}
+
 /*footer*/
 .footer{
-  display:inline-block;
+  display:flex;
   vertical-align:top;
   background-color: #64394E;
   width:100%;
   color:#C2908C;
+  justify-content: space-between;
 }
 .footerItems1{
-  float:left;
   margin-top:12.5px;
-  margin-bottom:8.5px;
   margin-left: 25px;
-  font-size:20px;
+  font-size: 25px;
 }
 .footerItems2{
-  float:right;
   font-size: 25px;
   margin-top: 12.5px;
-  margin-bottom:8.5px;
   margin-right:50px;
 }
